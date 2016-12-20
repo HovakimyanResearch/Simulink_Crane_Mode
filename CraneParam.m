@@ -1,0 +1,10 @@
+V1_gain = 0.25;
+V2_gain = V1_gain;
+InitialPos_V1 = [-1 ; -1];
+InitialPos_V2 = [1 ; 1];
+pos_sat = 2.5;
+repulsion_gain = 3.0;
+repulsion_gradient = 0.2;
+radius_safe = 0.75;
+T = 0.02;
+LandFilter = ss(tf(0.3,[1 0.3]));
